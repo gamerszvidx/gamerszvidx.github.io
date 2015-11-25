@@ -10,34 +10,19 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function(){
+            $("#includedContent").load("navbar.html");
+        });
+    </script>
 </head>
 <body>
 
 
 <div class = logo><a id="logo" href="index.html" ><img title="" alt="" src="images/Untitled-2.jpg" /></a></div></div>
-<nav class="navbar navbar-inverse">
-<div class = "container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+<div id="includedContent"></div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">home</a></li>
-        <li ><a href="huidig.html">huidige projecten</a></li>
-        <li><a href="persoonlijk.html">persoonlijke gegevens</a></li>
-
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 <div class="row">
     <hr>
     <div class="large-8 columns">
@@ -65,7 +50,7 @@
         <hr/>
         <div class="row">
             <div class="large-6 columns">
-                <p>� Ricardo van der Spek</p>
+                <p>Ricardo van der Spek</p>
             </div>
         </div>
     </div>
